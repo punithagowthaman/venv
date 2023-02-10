@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'userregform'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3A658F4E99E046648A530E0BF7097AAD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FC4C274845A04372B2EA7F7EC7C125D5 }}
