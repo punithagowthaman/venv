@@ -1,3 +1,2 @@
 Flask
-flask_mysqldb
-mysqlclient==1.4.3
+
