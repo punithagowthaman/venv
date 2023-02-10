@@ -1,2 +1,2 @@
 Flask
-mysql-python
+flask_mysqldb
