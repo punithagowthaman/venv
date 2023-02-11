@@ -33,10 +33,10 @@ def login():
 			session['id'] = account['id']
 			session['username'] = account['username']
 			msg = 'Logged in successfully !'
-			return render_template('index.html', msg = msg)
+			return render_template('/templates/index.html', msg = msg)
 		else:
 			msg = 'Incorrect username / password !'
-	return render_template('login.html', msg = msg)
+	return render_template('/templates/login.html', msg = msg)
 
 @app.route('/logout')
 def logout():
@@ -69,4 +69,4 @@ def register():
 			msg = 'You have successfully registered !'
 	elif request.method == 'POST':
 		msg = 'Please fill out the form !'
-	return render_template('register.html', msg = msg)
+	return render_template('/templates/register.html', msg = msg)
