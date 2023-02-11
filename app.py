@@ -1,7 +1,7 @@
 # Store this code in 'app.py' file
 
 from flask import Flask, render_template, request, redirect, url_for, session
-from flask_mysqldb import MySQL
+from flask_mysqldb import MySQLdb
 import MySQLdb.cursors
 import re
 
@@ -16,7 +16,7 @@ app.config['MYSQL_USER'] = 'punitha'
 app.config['MYSQL_PASSWORD'] = 'Ammu.mca24@'
 app.config['MYSQL_DB'] = 'webapp'
 
-mysql = MySQL(app)
+mysql = MySQLdb(app)
 
 @app.route('/')
 @app.route('/login', methods =['GET', 'POST'])
