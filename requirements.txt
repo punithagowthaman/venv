@@ -1,4 +1,4 @@
 Flask
-flask_mysqldb==0.12.4
+flask_mysqldb==0.1.0
 mysqlclient
 MySQL
