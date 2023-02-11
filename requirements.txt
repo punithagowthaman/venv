@@ -1,4 +1,4 @@
 Flask
-Flask_MySQLdb
+flask_mysqldb
 mysqlclient
 MySQL
