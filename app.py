@@ -16,7 +16,7 @@ app.config['MYSQL_USER'] = 'punitha'
 app.config['MYSQL_PASSWORD'] = 'Ammu.mca24@'
 app.config['MYSQL_DB'] = 'webapp'
 
-mysql = MySQLdb(app)
+mysql = MySQL(app)
 
 @app.route('/')
 @app.route('/login', methods =['GET', 'POST'])
